@@ -1,10 +1,10 @@
 # Power User Lab Modules
 
 ## Content
-* [Module 2](#Module2)
-* [Module 3](#Module3)
-* [Module 4](#Module4)
-* [Module 5](#Module5)
+* [Module 2](#Module-2)
+* [Module 3](#Module-3)
+* [Module 4](#Module-4)
+* [Module 5](#Module-5)
 
 ### Module 2 
 
