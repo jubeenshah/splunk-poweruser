@@ -17,7 +17,7 @@
 
 ### Tasks
 
-* Task 1: Display web server failures during the last 7 days in a timechart with a trendline.
+* **Task 1:** Display web server failures during the last 7 days in a timechart with a trendline.
 
 ```
 index=security sourcetype=linux_secure fail*
@@ -27,7 +27,7 @@ index=security sourcetype=linux_secure fail*
 
 ![L3S1](./Mod4/resources/L3S1.png)
 
-* Task 2: Display the sales count of strategy games per day at Buttercup Games physical sales locations (i.e., not online) during the previous week.
+* T**ask 2: **Display the sales count of strategy games per day at Buttercup Games physical sales locations (i.e., not online) during the previous week.
 
 ```
 index=sales sourcetype=vendor_sales categoryId="STRATEGY"
@@ -36,7 +36,7 @@ index=sales sourcetype=vendor_sales categoryId="STRATEGY"
 
 ![L3S2](./Mod4/resources/L3S2.png)
 
-* Task 3: Display a choropleth map of United States retail sales during the last 7 Days.
+* **Task 3:** Display a choropleth map of United States retail sales during the last 7 Days.
 
 ```
 index=sales sourcetype=vendor_sales
@@ -47,7 +47,7 @@ index=sales sourcetype=vendor_sales
 
 ![L3S3](./Mod4/resources/L3S3.png)
 
-* Task 4: Display a map of online sales by country during the previous week.
+* **Task 4:** Display a map of online sales by country during the previous week.
 
 ```
 index=web sourcetype=access_combined action=purchase status=200
@@ -57,7 +57,7 @@ index=web sourcetype=access_combined action=purchase status=200
 
 ![L3S4](./Mod4/resources/L3S4.png)
 
-* Task 5: Count the retail sales units sold by country and include a grand total row.
+* **Task 5:** Count the retail sales units sold by country and include a grand total row.
 
 ```
 index=sales sourcetype=vendor_sales 
