@@ -1,6 +1,6 @@
 # Lab 4
 
-## Task 1
+## Tasks
 
 * Task 1: Display web server failures during the last 7 days in a timechart with a trendline.
 
