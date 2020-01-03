@@ -7,6 +7,7 @@
 * [Module 5 - Filtering and Formatting](#Module-5)
 * [Module 6 - Corelating Events](#Module-6)
 * [Module 8 - Field Extractions](#Module-8)
+* [Module 9 - Aliases and Calculated Fields](#Module-9)
 
 ### Module 2 
 
@@ -219,3 +220,34 @@ index=_* OR index=* sourcetype=linux_secure
 ```
 
 ![](./Mod8/resources/02.png)
+
+### Module 9
+
+* Please find the Exercise PDF [here](./Mod9/SplunkFundamentals2_module9.pdf)
+* Please find the Solution PDF [here](./Mod9/SplunkFundamentals2_module9_solutions.pdf)
+* Please find the README File [here](./Mod9/README.md)
+
+#### Tasks
+
+* **Task 1:** Create a field alias so that cs_username also appears as user.
+
+```
+index=network sourcetype=cisco* user=*
+```
+![](./Mod9/resources/01.png)
+
+
+* **Task 2:** Create a calculated field that converts bytes to MB.
+
+```
+index=network sourcetype=cisco_w* 
+|  stats sum(sc_megabytes) as "Bandwidth (MB)" by usage
+```
+![](./Mod9/resources/02.png)
+
+
+* **Task 3:**
+
+```
+Create a field alias for the access_combined sourcetype called http_method, based on the existing access_combined field method.
+```
