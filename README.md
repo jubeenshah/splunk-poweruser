@@ -18,7 +18,7 @@
 
 ### Module 4 
 
-* Please find the Exercise PDF [here](./Mod4/SplunkFundamentals2_module4.pdf)
+* Please find the Exercise PDF [here](./Mod4/Mod4/SplunkFundamentals2_module4.pdf)
 * Please find the Solution PDF [here](./Mod4/SplunkFundamentals2_module4_solutions.pdf)
 
 ### Tasks
