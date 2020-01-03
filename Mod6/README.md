@@ -37,17 +37,18 @@ index=web sourcetype="access_combined"
 
 ![](./resources/03.png)
 
-* **Task 4:** 
+* **Task 4:** Report common HTTP status errors that occurred during the last 30 days on the online sales web servers and the internal web appliance within a proximity of 5 minutes or less. Only include days with more than 5 common errors.
+
 
 ```
+(index=network sourcetype=cisco_wsa_squid) OR (index=web sourcetype=access_combined) status>399
+| fields sourcetype, status
+| transaction status maxspan=1m
+| timechart count by status
+| addtotals
+| where Total > 4
+| fields - Total
 ```
 
 ![](./resources/04.png)
-
-* **Task 5:** 
-
-```
-```
-
-![](./resources/05.png)
 
