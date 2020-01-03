@@ -6,9 +6,45 @@
 
 ```
 index=web sourcetype="access_combined"
-| table _time, clientip, JSESSIONID, action
-| sort action
-| where action NOT NULL
+| transaction JSESSIONID
+| table JSESSIONID,clientip, action
+| search action=purchase
 ```
 
 ![](./resources/01.png)
+
+* **Task 2:** Display the online store purchase transactions lasting more than one minute and include the number of events in each transaction.
+
+```
+index=web sourcetype="access_combined"
+| transaction JSESSIONID
+| table JSESSIONID,clientip, duration,eventcount, action
+| eval durationMinutes = round(duration/60,1)
+| search action=purchase
+| where durationMinutes > 1
+| fields - duration
+```
+
+![](./resources/02.png)
+
+* **Task 3:** 
+
+```
+```
+
+![](./resources/03.png)
+
+* **Task 4:** 
+
+```
+```
+
+![](./resources/04.png)
+
+* **Task 5:** 
+
+```
+```
+
+![](./resources/05.png)
+
