@@ -5,6 +5,7 @@
 * [Commands for Visualization](#Module-3)
 * [Advanced Visualization](#Module-4)
 * [Filtering and Formatting](#Module-5)
+* [Corelating Events](#Module-6)
 
 ### Module 2 
 
