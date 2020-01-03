@@ -27,9 +27,12 @@ index=web sourcetype="access_combined"
 
 ![](./resources/02.png)
 
-* **Task 3:** 
+* **Task 3:** Search for online store transactions that begin with an addtocart action and end with a purchase action.
 
 ```
+index=web sourcetype="access_combined"
+| transaction clientip startswith="addtocart" endswith="purchase"
+| table clientip, JSESSIONID, product_name, action duration,eventcount,price
 ```
 
 ![](./resources/03.png)
