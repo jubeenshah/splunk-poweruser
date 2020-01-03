@@ -6,6 +6,7 @@
 * [Advanced Visualization](#Module-4)
 * [Filtering and Formatting](#Module-5)
 * [Corelating Events](#Module-6)
+* [Field Extractions](#Module-7)
 
 ### Module 2 
 
@@ -194,4 +195,10 @@ index=web sourcetype="access_combined"
 
 ![](./Mod6/resources/05.png)
 
+### Module 8
 
+* Please find the Exercise PDF [here](./Mod8/SplunkFundamentals2_module8.pdf)
+* Please find the Solution PDF [here](./Mod8/SplunkFundamentals2_module8_solutions.pdf)
+* Please find the README File [here](./Mod8/README.md)
+
+#### Tasks
