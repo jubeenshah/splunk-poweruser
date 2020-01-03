@@ -15,7 +15,7 @@
 * Please find the Exercise PDF [here](./Mod2/SplunkFundamentals2_module4.pdf)
 * Please find the Solution PDF [here](./Mod2/SplunkFundamentals2_module4_solutions.pdf)
 
-### Lab 4
+### Tasks
 
 * Task 1: Display web server failures during the last 7 days in a timechart with a trendline.
 
