@@ -50,5 +50,5 @@ index=web sourcetype="access_combined"
 | fields - Total
 ```
 
-![](./resources/04.png)
+![](./resources/05.png)
 
