@@ -19,8 +19,4 @@ index=network sourcetype=cisco_w*
 ![](./resources/02.png)
 
 
-* **Task 3:**
-
-```
-Create a field alias for the access_combined sourcetype called http_method, based on the existing access_combined field method.
-```
+* **Task 3:** Create a field alias for the access_combined sourcetype called http_method, based on the existing access_combined field method.
