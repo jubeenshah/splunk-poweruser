@@ -27,7 +27,7 @@ index=security sourcetype=linux_secure fail*
 
 ![L3S1](./Mod4/resources/L3S1.png)
 
-* T**ask 2: **Display the sales count of strategy games per day at Buttercup Games physical sales locations (i.e., not online) during the previous week.
+* **Task 2:** Display the sales count of strategy games per day at Buttercup Games physical sales locations (i.e., not online) during the previous week.
 
 ```
 index=sales sourcetype=vendor_sales categoryId="STRATEGY"
