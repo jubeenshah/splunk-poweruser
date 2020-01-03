@@ -1,10 +1,10 @@
 # Power User Lab Modules
 
 ## Content
-* [Module 2](#Module-2)
-* [Module 3](#Module-3)
-* [Module 4](#Module-4)
-* [Module 5](#Module-5)
+* [Beyond Search Fundamentals](#Module-2)
+* [Commands for Visualization](#Module-3)
+* [Advanced Visualization](#Module-4)
+* [Filtering and Formatting](#Module-5)
 
 ### Module 2 
 
