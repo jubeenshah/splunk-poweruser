@@ -10,16 +10,19 @@
 
 * Please find the Exercise PDF [here](./Mod2/SplunkFundamentals2_module2.pdf)
 * Please find the Solution PDF [here](./Mod2/SplunkFundamentals2_module2_solutions.pdf)
+* Please find the README File [here](#) **No Readme**
 
 ### Module 3 
 
 * Please find the Exercise PDF [here](./Mod3/SplunkFundamentals2_module3.pdf)
 * Please find the Solution PDF [here](./Mod3/SplunkFundamentals2_module3_solutions.pdf)
+* Please find the README File [here](#) **No Readme**
 
 ### Module 4 
 
 * Please find the Exercise PDF [here](./Mod4/SplunkFundamentals2_module4.pdf)
 * Please find the Solution PDF [here](./Mod4/SplunkFundamentals2_module4_solutions.pdf)
+* Please find the README File [here](./Mod4/README.md)
 
 #### Tasks
 
@@ -78,6 +81,7 @@ index=sales sourcetype=vendor_sales
 
 * Please find the Exercise PDF [here](./Mod5/SplunkFundamentals2_module5.pdf)
 * Please find the Solution PDF [here](./Mod5/SplunkFundamentals2_module5_solutions.pdf)
+* Please find the README File [here](./Mod5/README.md)
 
 #### Tasks
 
