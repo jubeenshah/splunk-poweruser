@@ -6,7 +6,7 @@
 * [Advanced Visualization](#Module-4)
 * [Filtering and Formatting](#Module-5)
 * [Corelating Events](#Module-6)
-* [Field Extractions](#Module-7)
+* [Field Extractions](#Module-8)
 
 ### Module 2 
 
