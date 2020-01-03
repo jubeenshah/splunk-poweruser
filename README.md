@@ -1,12 +1,12 @@
 # Power User Lab Modules
 
 ## Content
-* [Beyond Search Fundamentals](#Module-2)
-* [Commands for Visualization](#Module-3)
-* [Advanced Visualization](#Module-4)
-* [Filtering and Formatting](#Module-5)
-* [Corelating Events](#Module-6)
-* [Field Extractions](#Module-8)
+* [Module 2 - Beyond Search Fundamentals](#Module-2)
+* [Module 3 - Commands for Visualization](#Module-3)
+* [Module 4 - Advanced Visualization](#Module-4)
+* [Module 5 - Filtering and Formatting](#Module-5)
+* [Module 6 - Corelating Events](#Module-6)
+* [Module 8 - Field Extractions](#Module-8)
 
 ### Module 2 
 
