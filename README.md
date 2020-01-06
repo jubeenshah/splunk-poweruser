@@ -1,14 +1,15 @@
 # Power User Lab Modules
 
 ## Content
-* [Module 2 - Beyond Search Fundamentals](#Module-2)
-* [Module 3 - Commands for Visualization](#Module-3)
-* [Module 4 - Advanced Visualization](#Module-4)
-* [Module 5 - Filtering and Formatting](#Module-5)
-* [Module 6 - Corelating Events](#Module-6)
-* [Module 8 - Field Extractions](#Module-8)
-* [Module 9 - Aliases and Calculated Fields](#Module-9)
+* [Module 02 - Beyond Search Fundamentals](#Module-2)
+* [Module 03 - Commands for Visualization](#Module-3)
+* [Module 04 - Advanced Visualization](#Module-4)
+* [Module 05 - Filtering and Formatting](#Module-5)
+* [Module 06 - Corelating Events](#Module-6)
+* [Module 08 - Field Extractions](#Module-8)
+* [Module 09 - Aliases and Calculated Fields](#Module-9)
 * [Module 10 - Tags and Event Type](#Module-10)
+* [Module 11 - Macros](#Module-10)
 
 ### Module 2 
 
