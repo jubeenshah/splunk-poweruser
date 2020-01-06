@@ -281,3 +281,51 @@ index=web OR index=sales status>500 eventtype=web_error
 ```
 
 ![](./Mod10/resources/03.png)
+
+### Module 11
+
+* Please find the Exercise PDF [here](./Mod11/SplunkFundamentals2_module10.pdf)
+* Please find the Solution PDF [here](./Mod11/SplunkFundamentals2_module10_solutions.pdf)
+* Please find the README File [here](./Mod11/README.md)
+
+#### Tasks
+
+* **Task 1:** Write a basic macro to create a table displaying the total sales of each product sold in Europe.
+
+```
+index=sales sourcetype=vendor_sales ((VendorCountry="Germany") OR (VendorCountry="France") OR (VendorCountry="Italy"))
+| stats sum(sale_price) as USD by product_name
+| eval USD = "$" + tostring(USD,"commas")
+```
+
+![](./Mod11/resources/01.png)
+
+* **Task 2:** Use a basic macro.
+
+```
+index=sales sourcetype=vendor_sales ((VendorCountry="Germany") OR (VendorCountry="France") OR (VendorCountry="Italy"))
+| stats sum(sale_price) as USD by product_name
+|`europe_sales`
+```
+
+![](./Mod11/resources/02.png)
+
+* **Task 3:** Create a macro that enables users to specify currency when performing a search. This macro uses currency, currency symbol, and rate as variables (arguments).
+
+```
+sourcetype=vendor_sales VendorCountry=Germany OR VendorCountry=France OR VendorCountry=Italy
+| stats sum(price) as USD by product_name
+| eval euro = "€" + tostring(round(USD*0.79,2), "commas"), USD = "$" + tostring(USD, "commas")
+```
+
+![](./Mod11/resources/03.png)
+
+
+* **Task 4:** Use your macro with arguments in a search.
+
+```
+sourcetype=vendor_sales VendorCountry=Germany OR VendorCountry=France OR VendorCountry=Italy
+| `convert_sales(euro,€,.79)`
+```
+
+![](./Mod11/resources/04.png)
