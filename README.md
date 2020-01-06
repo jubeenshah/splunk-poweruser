@@ -10,6 +10,7 @@
 * [Module 09 - Aliases and Calculated Fields](#Module-9)
 * [Module 10 - Tags and Event Type](#Module-10)
 * [Module 11 - Macros](#Module-10)
+* [Module 12 - Workflow Actions](#Module-10)
 
 ### Module 2 
 
@@ -329,3 +330,38 @@ sourcetype=vendor_sales VendorCountry=Germany OR VendorCountry=France OR VendorC
 ```
 
 ![](./Mod11/resources/04.png)
+
+### Module 12
+
+* Please find the Exercise PDF [here](./Mod12/SplunkFundamentals2_module10.pdf)
+* Please find the Solution PDF [here](./Mod12/SplunkFundamentals2_module10_solutions.pdf)
+* Please find the README File [here](./Mod12/README.md)
+
+#### Tasks
+
+* **Task 1:** Create a GET workflow action that opens a new browser window with information about the source IP address.
+
+```
+index=security sourcetype=linux_secure src_ip=*
+```
+
+![](./Mod12/resources/01.png)
+![](./Mod12/resources/01-b.png)
+
+* **Task 2:** Create a POST workflow action that will use fields from events with errors to create a ticket in the IT ticket tracking system.
+
+```
+index=_* OR index=* sourcetype=sales_entries result=error
+```
+
+![](./Mod12/resources/02.png)
+![](./Mod12/resources/02-b.png)
+
+* **Task 3:** Create a Search workflow action that performs a search for all failed password events associated with a specific IP address.
+
+```
+index=security sourcetype=linux_secure failed src_ip=107.3.146.207
+```
+
+![](./Mod12/resources/03.png)
+![](./Mod12/resources/03-b.png)
