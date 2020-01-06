@@ -8,6 +8,7 @@
 * [Module 6 - Corelating Events](#Module-6)
 * [Module 8 - Field Extractions](#Module-8)
 * [Module 9 - Aliases and Calculated Fields](#Module-9)
+* [Module 10 - Tags and Event Type](#Module-10)
 
 ### Module 2 
 
@@ -247,3 +248,35 @@ index=network sourcetype=cisco_w*
 
 
 * **Task 3:** Create a field alias for the access_combined sourcetype called http_method, based on the existing access_combined field method.
+
+### Module 10
+
+* Please find the Exercise PDF [here](./Mod10/SplunkFundamentals2_module10.pdf)
+* Please find the Solution PDF [here](./Mod10/SplunkFundamentals2_module10_solutions.pdf)
+* Please find the README File [here](./Mod10/README.md)
+
+#### Tasks
+
+* **Task 1:** Create tags to identify all admin accounts.
+
+```
+index=security sourcetype=linux_secure failed tag=privileged_user
+```
+
+![](./Mod10/resources/01.png)
+
+* **Task 2:** Use tags in a search.
+
+```
+index=security failed tag=privileged_user
+```
+
+![](./Mod10/resources/02.png)
+
+* **Task 3:** Create an event type for status errors greater than 500 on web servers/devices.
+
+```
+index=web OR index=sales status>500 eventtype=web_error
+```
+
+![](./Mod10/resources/03.png)
