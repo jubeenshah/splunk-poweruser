@@ -9,8 +9,8 @@
 * [Module 08 - Field Extractions](#Module-8)
 * [Module 09 - Aliases and Calculated Fields](#Module-9)
 * [Module 10 - Tags and Event Type](#Module-10)
-* [Module 11 - Macros](#Module-10)
-* [Module 12 - Workflow Actions](#Module-10)
+* [Module 11 - Macros](#Module-11)
+* [Module 12 - Workflow Actions](#Module-12)
 
 ### Module 2 
 
